@@ -1,0 +1,10 @@
+@media (max-width: 767px) {
+  .navbar-wrap {
+    border-bottom: none;
+ }
+}
+@media (max-width: 767px) {
+  .navbar-wrap .container {
+    padding: 0;
+  }
+}
