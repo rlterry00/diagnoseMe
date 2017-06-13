@@ -8,3 +8,23 @@
     padding: 0;
   }
 }
+@media screen (max-width: 500px;) {
+	.body-wrap
+}
+	
+#container {
+    margin: 30px auto;
+    border: 1px solid red;
+    height: 960px;
+    width: 960px;    
+}
+
+#container > div {
+    border: 1px solid black;
+    display: inline-block;
+    box-sizing: border-box; 
+}
+
+.hovered {
+    background-color: black;
+}
