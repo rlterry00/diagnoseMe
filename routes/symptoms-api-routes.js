@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //api-routes.js - this file offers a set of routes for displaying and saving data to the db
 
 
@@ -30,3 +31,20 @@ module.exports = function(app) {
 		}
 	});
 }
+=======
+var db = require("../models");
+
+module.exports = function(app) {
+app.post("/", function(req, res) {
+	console.log(req.body);
+   db.symptoms.create({
+      zipcode: req.body.zip,
+      symptoms: req.body.symptom
+    })
+    .then(function(dbSym) {
+      // res.json(dbSym);
+      res.redirect("/");
+    });
+  });
+	};
+>>>>>>> 3f7b510fd970f3838980858db415c89ebfe8da00

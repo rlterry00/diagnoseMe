@@ -28,3 +28,9 @@
 .hovered {
     background-color: black;
 }
+
+#logo {
+  width: 50%;
+  height: 200px;
+  float: left;
+}
