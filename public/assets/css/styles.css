@@ -9,9 +9,8 @@
   }
 }
 @media screen (max-width: 500px;) {
-	.body-wrap
+.body-wrap
 }
-	
 #container {
     margin: 30px auto;
     border: 1px solid red;
@@ -33,4 +32,23 @@
   width: 50%;
   height: 200px;
   float: left;
+}
+
+.footer-logo {
+  background-image: url("../public/assets/diagnosemelogo.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100px;
+  width: 100%;
+  max-width: 300px;
+  display: block;
+  margin: auto;
+}
+.ul {
+  font-weight: bold;
+}
+.border-div{
+  border: 5px solid #333;
+  border-radius: 2px;
+  padding: 40px;
 }
