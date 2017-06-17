@@ -67,3 +67,6 @@
   color: black;
   font-size: 35px;
 }
+.btn-primary {
+  background-image: linear-gradient(to bottom,#62ab62 0,#5cb85c 100%);
+}
